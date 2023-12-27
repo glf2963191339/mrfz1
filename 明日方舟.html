@@ -1,0 +1,209 @@
+ <!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>明日方舟</title>
+		<style type="text/css">
+			*{padding: 0;margin: 0 auto;}
+			body{
+				width: 1500px;
+				height:778px;
+				background-color: black;
+				background-image: url(img/背景.jpg);
+				background-repeat: no-repeat;
+				background-position: center center;
+			}
+			.father{
+				width: 1500px;
+				height: 778px;
+				position: relative;
+				display: flex;
+				justify-content: center;
+				align-content: center;	
+			}
+			.amiya{
+				
+				width: 700px;
+				height: 828px;
+				position: absolute;
+				left: 130px;top: -50px;
+				background-image: url(img/amiya.webp);
+				background-size: 1350px 1350px;
+				background-repeat: no-repeat;
+				background-position: center top;
+				animation-name: amiya;
+				animation-duration: 1s;
+			}
+			.arknights{
+				width: 150px;
+				height: 150px;
+				position: absolute;
+				top: 180px;left: 60px;
+				color: white;
+				font-size: 20px;
+				animation-name: arknights;
+				animation-duration: 5s;
+			}
+			.rhodesisland{
+				width: 700px;
+				height: 100px;
+				font-size: 90px;
+				font-weight: bolder;
+				color: white;
+				position: absolute;
+				left: 55px;top: 520px;
+				text-shadow: #000000 3px 3px;
+				animation-name: arknights;
+				animation-duration: 3s;
+			}
+			.rhodesislanda{
+				width: 300px;
+				height: 50px;
+				font-size: 30px;
+				color: white;
+				position: absolute;
+				left: 60px;top: 630px;
+				text-shadow: #000000 3px 3px;
+				animation-name: arknights;
+				animation-duration: 3s;
+			}
+			.top{
+				width: 650px;
+				height: 40px;
+				position: absolute;
+				top:25px;
+				animation-name: top;
+				animation-duration: 1s;
+			}
+			.pv{
+				width: 523px;
+				height: 327px;
+				position: absolute;
+				right:100px;top: 282px;
+				background-image: url(img/pv.jpg);
+				background-repeat: no-repeat;
+				background-size: 523px 327px;
+				animation-name: pv;
+				animation-duration: 4s;
+				border: solid;
+				border-color: white;
+				border-width:1px ;
+			}
+			.pvz{
+				width: 523px;
+				height: 20px;
+				color: white;
+				position: absolute;
+				right: 100px;top: 242px;
+				font-weight: bold;
+				animation-name: pv;
+				animation-duration: 4s;
+			}
+			@keyframes pv{
+				from{
+					opacity: 0%;
+				}
+				to{
+					opacity: 100%;
+				}
+			}
+			@keyframes top{
+				from{
+					transform: translate(0px,-100px);
+				}
+				to{
+					transform: translate(0px,0px);
+				}
+			}
+			@keyframes amiya{
+				from{
+					transform: translate(0px,800px);
+				}
+				to{
+					transform: translate(0px,0px);
+				}
+			}
+			@keyframes arknights{
+				from{
+					color: #000;
+				}
+				to{
+					color: white;
+				}
+			}
+			@keyframes amiya{
+				from{
+					transform: translate(0px,800px);
+				}
+				to{
+					transform: translate(0px,0px);
+				}
+			}
+			li{
+				float: left;
+				width: 120px;
+				height: 40px;
+				list-style: none;
+				text-align: center;
+				font-weight: bold;
+				line-height: 40px;
+			}
+			a{
+				text-decoration: none;
+				display: block;
+				
+			}
+			a.topcs:link{
+				color: white;
+			}
+			a.topcs:visited{
+				color:white;
+			}
+			
+			a.topcs:hover{
+				color:#22BBFF;
+				
+			}
+			a.news:hover{
+				opacity: 85%;
+			}
+			p{
+				font-size: 1px;
+			}
+		</style>		
+	</head>
+	<body>
+		<div class="father">
+			<div class="amiya">
+				
+			</div>
+			<div class="arknights">
+				A&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;R&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;K<br></br>
+				N&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;I&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;G<br></br>
+				H&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;T&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;S<br></br>
+			</div>
+			<div class="rhodesisland">
+				RHODES&nbsp;ISLAND
+			</div>
+			<div class="rhodesislanda">
+					--罗德岛--
+			</div>
+			<div class="top">
+				<ul>
+					<li><a href="明日方舟.html" class="topcs">首页</a></li>
+					<li><a href="情报.html" class="topcs">情报</a></li>
+					<li><a href="干员.html" class="topcs">干员</a></li>
+					<li><a href="设定.html" class="topcs">设定</a></li>
+					<li><a href="档案.html" class="topcs">档案</a></li>
+				</ul>
+			</div>
+			<a href="https://www.bilibili.com/video/BV1b8411e7V8/?spm_id_from=333.337.search-card.all.click" class="news" target="_blank">
+				<div class="pv"></div>
+			</a>
+			<div class="pvz">
+				叙拉古人宣传PV</br>
+				<p>点击图片前往观看</p>
+			</div>
+		</div>		
+	</body>
+</html>

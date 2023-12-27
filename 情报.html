@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>情报</title>
+		<style type="text/css">
+			*{padding: 0;margin: 0 auto;}
+			body{
+				width: 1500px;
+				height:778px;
+				background-color: black;
+				background-image: url(img/背景.jpg);
+				background-repeat: no-repeat;
+				background-position: center center;
+			}
+			.father{
+				width: 1500px;
+				height: 778px;
+				position: relative;
+				display: flex;
+				justify-content: center;
+				align-content: center;	
+			}
+			.top{
+				width: 650px;
+				height: 40px;
+				position: absolute;
+				top:25px;
+				animation-name: top;
+				animation-duration: 1s;
+			}
+			.fourth{
+				width: 530px;
+				height: 199px;
+				position: absolute;
+				left:125px;top: 150px;
+				background-image: url(img/4th.jpg);
+				background-repeat: no-repeat;
+				background-size: 530px 199px;
+				animation-name: fourth;
+				animation-duration: 0.5s;
+			}
+			.rhodesisland{
+				width: 400px;
+				height: 350px;
+				font-size: 90px;
+				color: white;
+				position: absolute;
+				right: 350px;top: 130px;
+				text-shadow: #000000 3px 3px;
+				animation-name: arknights;
+				animation-duration: 4s;
+			}
+			.scatti{
+				width: 760px;
+				height: 800px;
+				position: absolute;
+				right: 0px;top: -20px;
+				background-image: url(img/scatti.png);
+				background-size: 1100px 1100px;
+				background-repeat: no-repeat;
+				background-position: left top;
+				animation-name: amiya;
+				animation-duration: 0.5s;
+			}
+			.mingrifangzhou{
+				width: 200px;
+				height: 200px;
+				font-size: 20px;
+				color: white;
+				position: absolute;
+				right: 547px;top: 390px;
+				text-shadow: #000000 3px 3px;
+				animation-name: arknights;
+				animation-duration: 4s;
+			}
+			.qingbaozhan{
+				width: 400px;
+				height: 350px;
+				font-size: 90px;
+				color: white;
+				position: absolute;
+				right: 360px;top: 470px;
+				text-shadow: #000000 3px 3px;
+				animation-name: arknights;
+				animation-duration: 4s;
+			}
+			.gonggao{
+				width: 1500px;
+				height: 300px;
+				position: absolute;
+				bottom: 100px;left: 0px;
+				color: white;
+				animation-name: fourth;
+				animation-duration: 0.5s;
+			}
+			
+			li{
+				float: left;
+				width: 120px;
+				height: 40px;
+				list-style: none;
+				text-align: center;
+				font-weight: bold;
+				line-height: 40px;
+			}
+			a{
+				text-decoration: none;
+				display: block;
+				
+			}
+			a.topcs:link{
+				color: white;
+			}
+			a.topcs:visited{
+				color:white;
+			}
+			
+			a.topcs:hover{
+				color:#22BBFF;
+				
+			}
+			@keyframes fourth{
+				from{
+					transform: translate(-700px,0px);
+				}
+				to{
+					transform: translate(0px,0px);
+				}
+			}
+			@keyframes top{
+				from{
+					transform: translate(0px,-100px);
+				}
+				to{
+					transform: translate(0px,0px);
+				}
+			}
+			@keyframes arknights{
+				from{
+					color: #000;
+				}
+				to{
+					color: white;
+				}
+			}
+			@keyframes amiya{
+				from{
+					transform: translate(0px,800px);
+				}
+				to{
+					transform: translate(0px,0px);
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="father">
+			<div class="scatti">
+			</div>
+			<div class="fourth">
+				
+			</div>
+			<div class="rhodesisland">
+				RHODES</br>
+				ISLAND</br>
+			</div>
+			<div class="mingrifangzhou">
+				明日方舟</br>
+				information station
+			</div>
+			<div class="qingbaozhan">
+				情报站
+			</div>
+			<div class="top">
+				<ul>
+					<li><a href="明日方舟.html" class="topcs">首页</a></li>
+					<li><a href="情报.html" class="topcs">情报</a></li>
+					<li><a href="干员.html" class="topcs">干员</a></li>
+					<li><a href="设定.html" class="topcs">设定</a></li>
+					<li><a href="档案.html" class="topcs">档案</a></li>
+				</ul>
+			</div>
+			<div class="gonggao">
+				<ul>
+					<li style="border: solid  white;border-color:rgba(255,255,255,0.5);width: 652px;height:50px;border-left: none;border-top: none;border-right: none;border-width:1px;clear: left;text-indent:110px;line-height: 50px;">
+						<a href="https://ak.hypergryph.com/news/2023043128.html"class="topcs"target="_blank">2023-04-22&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;活动&nbsp;【活动预告】《明日方舟》四周年庆典即将开始</a>
+					</li>
+				    <li style="border: solid  white;border-color:rgba(255,255,255,0.5);width: 652px;height:50px;border-left: none;border-top: none;border-right: none;border-width:1px;clear: left;text-indent:93px;line-height: 50px;">
+				    	<a href="https://ak.hypergryph.com/news/2023055856.html"class="topcs"target="_blank">2023-05-31&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;公告&nbsp;【明日方舟】05月31日16：00闪断更新公告</a>
+				    </li>
+				    <li style="border: solid  white;border-color:rgba(255,255,255,0.5);width: 652px;height:50px;border-left: none;border-top: none;border-right: none;border-width:1px;clear: left;text-indent:38px;line-height: 50px;">
+				    	<a href="https://ak.hypergryph.com/news/2023055817.html"class="topcs"target="_blank">2023-05-31&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;公告&nbsp;【明日方舟】05月31日封禁处理公示</a>
+				    </li>
+				    <li style="border: solid  white;border-color:rgba(255,255,255,0.5);width: 652px;height:50px;border-left: none;border-top: none;border-right: none;border-width:1px;clear: left;text-indent:-2px;line-height: 50px;">
+				    	<a href="https://ak.hypergryph.com/news/2023055803.html"class="topcs"target="_blank">2023-05-25&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;新闻&nbsp;【明日方舟】制作组通讯#30期</a>
+				    </li>
+				    <li style="border: solid  white;border-color:rgba(255,255,255,0.5);width: 652px;height:50px;border-left: none;border-top: none;border-right: none;border-width:1px;clear: left;text-indent:39px;line-height: 50px;">
+				    	<a href="https://ak.hypergryph.com/news/2023055864.html"class="topcs"target="_blank">2023-05-24&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;公告&nbsp;【明日方舟】05月24日封禁处理公示</a>
+				    </li>
+				    <li style="border: solid  white;border-color:rgba(255,255,255,0.5);width: 652px;height:50px;border-left: none;border-top: none;border-right: none;border-width:1px;clear: left;text-indent:96px;line-height: 50px;">
+				    	<a href="https://ak.hypergryph.com/news/2023055892.html"class="topcs"target="_blank">2023-05-22&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;公告&nbsp;【明日方舟】05月22日16：00闪断更新公告</a>
+				    </li>
+				</ul>
+			</div>
+	  </div>
+	</body>
+</html>
